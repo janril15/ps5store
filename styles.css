@@ -1,0 +1,544 @@
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #3838384d;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .logo img {
+    max-width: 50px;
+    vertical-align: middle;
+  }
+  
+  header .logo h1 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 24px;
+  }
+  
+  nav {
+    background-color: #000000;
+    padding: 15px 0; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    flex-grow: 1; 
+    text-align: center;
+  }
+  
+  nav ul li a {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem; 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px; 
+    display: block;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0078D7; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    nav ul li {
+      width: 100%;
+    }
+    
+    nav ul li a {
+      font-size: 1.5rem; 
+      padding: 20px; 
+    }
+  }
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .carousel {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  animation: slideshow 20s linear infinite;
+}
+
+.carousel {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  animation: slideshow 20s linear infinite;
+}
+
+.carousel-images img {
+  max-width: 100%;
+}
+
+@keyframes slideshow {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+
+
+
+
+  
+ 
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+.gallery img {
+  width: 200px; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.1); 
+}
+
+
+.card img {
+  width: 200px;
+  height: auto; 
+  border-radius: 8px; 
+}
+
+
+.card p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #3bb9df;
+
+ 
+
+}
+
+  footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  body {
+    background-image: url("background.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+  
+  
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(131, 131, 131, 0.5); 
+    z-index: -1;
+  }
+
+ 
+img:hover, .logo:hover {
+  filter: drop-shadow(0 0 15px rgba(255, 253, 253, 0.8));
+  transition: filter 0.3s ease-in-out;
+}
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 15px rgba(0, 183, 255, 0.8));
+  transition: filter 0.3s ease-in-out;
+}
+
+.gallery p {
+  display: none; 
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap)
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color
+}
+
+header h1 {
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+.team-section {
+  padding: 20px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.member {
+  background-color: #383838;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.member:hover {
+  transform: scale(1.05);
+}
+
+.image-container {
+  overflow: hidden;
+  position: relative;
+  height: 250px;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+h3 {
+  margin: 15px 0 5px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.gallery img {
+  width: 250px !important; 
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.card img {
+  width: 280px !important; 
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.image-container {
+  height: 300px !important; 
+}
+
+
+.image-container img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+
+.carousel-images img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #1a1a1a;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #0078D7;
+  border-radius: 4px;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  scroll-snap-type: x mandatory;
+  padding: 10px;
+  justify-content: center;
+}
+
+.carousel-images img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: center;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .carousel-images img {
+    max-width: 90%; 
+  }
+
+  .gallery img {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-images img,
+  .gallery img {
+    max-width: 100%; 
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif; 
+  color: #ffffff;
+  background-color: #000000;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #0078D7;
+  border-radius: 4px;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Merriweather', serif; 
+}
+
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  scroll-snap-type: x mandatory;
+  padding: 10px;
+  justify-content: center;
+}
+
+.carousel-images img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: center;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif; 
+}
+
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .carousel-images img {
+    max-width: 90%; 
+  }
+
+  .gallery img {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-images img,
+  .gallery img {
+    max-width: 100%; 
+  }
+}
+
